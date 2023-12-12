@@ -119,9 +119,7 @@ class MainActivity : ComponentActivity() {
             )
         }
     }
-    //test 2
-
-
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
