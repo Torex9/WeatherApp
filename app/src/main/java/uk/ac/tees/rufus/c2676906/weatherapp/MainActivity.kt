@@ -87,7 +87,7 @@ class MainActivity : ComponentActivity() {
     private lateinit var locationCallback: LocationCallback
     private lateinit var mainViewModel: MainViewModel
     private var locationRequired: Boolean = false
-
+//test 2
     override fun onResume() {
         super.onResume()
         if (locationRequired) startLocationUpdate();
